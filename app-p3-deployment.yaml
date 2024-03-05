@@ -3,6 +3,8 @@ kind: Deployment
 metadata:
   name: app-p3
   namespace: dev
+  labels:
+      app: app-p3
 spec:
   replicas: 1
   selector:
