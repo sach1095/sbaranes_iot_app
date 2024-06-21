@@ -8,5 +8,5 @@ spec:
     app: app-p3
   ports:
     - protocol: TCP
-      port: 8888
-      targetPort: 8888
+      port: 80
+      targetPort: 80
